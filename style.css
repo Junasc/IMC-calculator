@@ -1,14 +1,39 @@
+
+
 body {
     background-color: aqua;
 }
 
 #conteiner {
-    background-color: aliceblue;
+    background-color: rgb(63, 127, 184);
+    color: aliceblue;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: space-around;
     width: 400px;
     height: 600px;
     margin: auto;
+}
+#nome , #altura , #peso{
+    margin: 12px 12px;
+    width: 200px;
+    height: 25px;
+    display: table;
+}
+
+#title{
+    font: normal bolder 2em 'work sans';
+    color: aliceblue;
+}
+#button{
+    width: 100px;
+    height: 40px;
+    font: normal bolder 20px 'work Sans';
+    border-radius: 8%;
+}
+.result {
+    width: 250px;
+    height: 100px;
+    background-color: aliceblue;
 }
