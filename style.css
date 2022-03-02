@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 400px;
     height: 600px;
     margin: auto;
@@ -25,6 +25,13 @@ body {
 #title{
     font: normal bolder 2em 'work sans';
     color: aliceblue;
+    padding-top: 20px;
+    
+    text-align: center;
+    background-color: rgba(54, 52, 187, 0.746);
+    width: 100%;
+    height: 50px;
+    
 }
 #button{
     width: 100px;
@@ -36,4 +43,5 @@ body {
     width: 250px;
     height: 100px;
     background-color: aliceblue;
+    box-shadow: 2px 2px 1px black;
 }
