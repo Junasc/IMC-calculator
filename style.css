@@ -2,6 +2,8 @@
     --colorShadow: #0000009a;
     --backConteiner: #3f7fb8;
     --backShadow: #3634bbbe;
+    --button: #272677af;
+    --buttonHover: #151447af;
     --background: #00ffff;
     --fontColor: #FFFFFF;
 
@@ -32,24 +34,39 @@ body {
     height: 25px;
     display: table;
     box-shadow: 3px 3px 4px var(--backShadow);
+    border: 0;
 }
 
 #title{
     font: normal bolder 2em 'work sans';
     color: var(--fontColor);
     padding-top: 20px;
-    
     text-align: center;
     background-color:var(--backShadow);
     width: 100%;
     height: 50px;
     
 }
-#button{
+#calcular{
     width: 100px;
     height: 40px;
     font: normal bolder 20px 'work Sans';
+    color: var(--fontColor);
+    text-shadow: 1px 1px 3px #00000050;
     border-radius: 8%;
+    background-color: var(--button);
+    box-shadow: 4px 4px 0px var(--backShadow);
+    border: 0px;
+}
+#calcular:hover {
+    background-color: var(--buttonHover);
+
+}
+#calcular:active{
+    background-color: var(--button);
+    box-shadow: 2px 2px 0px var(--button);
+    position: relative;
+    top: 3px;
 }
 .result {
     width: 250px;
