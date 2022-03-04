@@ -47,7 +47,7 @@ body {
     height: 50px;
     
 }
-#calcular{
+#calculato{
     width: 100px;
     height: 40px;
     font: normal bolder 20px 'work Sans';
@@ -58,19 +58,24 @@ body {
     box-shadow: 4px 4px 0px var(--backShadow);
     border: 0px;
 }
-#calcular:hover {
+#calculato:hover {
     background-color: var(--buttonHover);
 
 }
-#calcular:active{
+#calculato:active{
     background-color: var(--button);
     box-shadow: 2px 2px 0px var(--button);
     position: relative;
     top: 3px;
 }
-.result {
+#result {
+    color: black;
+    font: normal lighter 20px 'work sans';
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
+    text-align: center;
     width: 250px;
-    height: 100px;
+    height: 60px;
     background-color: #FFFFFF;
     box-shadow: 3px 3px 1px var(--backShadow);
+    border-radius: 5px;
 }
