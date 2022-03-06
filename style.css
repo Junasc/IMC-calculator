@@ -1,10 +1,10 @@
 :root {
     --colorShadow: #0000009a;
-    --backConteiner: #3f7fb8;
-    --backShadow: #3634bbbe;
-    --button: #272677af;
-    --buttonHover: #151447af;
-    --background: #00ffff;
+    --backConteiner: #57595a;
+    --backShadow: #1d1d22be;
+    --button: #1a1818;
+    --buttonHover: #0b0b0caf;
+    --background: #222;
     --fontColor: #FFFFFF;
 
 }
@@ -28,13 +28,16 @@ body {
     border-radius: 20px;
     box-shadow: 10px 8px 1px var(--backShadow);
 }
-#nome , #altura , #peso{
+#altura , #peso{
     margin: 12px 12px;
     width: 200px;
     height: 25px;
     display: table;
     box-shadow: 3px 3px 4px var(--backShadow);
     border: 0;
+}
+#sexo{
+    padding-bottom: 20px;
 }
 
 #title{
